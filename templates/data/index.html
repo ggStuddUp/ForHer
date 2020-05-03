@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据中心爬取</title>
+</head>
+<body>
+<h1>数据：</h1>
+<h3>----------------------</h3>
+{% for data in data_list %}
+    <h3>eid: {{ data.eid }}&nbsp; stime:{{ data.stime }}&nbsp;product:{{ data.product }}&nbsp;iver: {{ data.iver }}</h3>
+{% endfor %}
+</body>
+</html>
